@@ -1,0 +1,185 @@
+﻿@using OSMS.Web.Startup
+@{
+    ViewBag.CurrentPageName = PageNames.Reconcilia; // The menu item will be active for this page.
+}
+<style>
+    .my-btn {
+        border: 1px #eee solid;
+        float: left;
+        padding: 5px 8px;
+        border-radius: 10px;
+        background-color: #eee;
+        cursor: pointer
+    }
+
+        .my-btn.seleted {
+            background-color: #EC965E;
+            color: #fff
+        }
+
+    .import-btn {
+        padding-bottom: 10px;
+        border-bottom: 1px #EC965E solid;
+    }
+
+    .re-btn {
+        padding: 5px 8px;
+        border-radius: 2px;
+        background-color: #EC965E;
+        width: 120px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 20px
+    }
+
+    .re-result {
+        border-top: 1px #eee solid;
+        margin-top: 10px;
+        padding: 10px 0;
+        font-size: 16px
+    }
+
+    .re-txt {
+        font-size: 15px;
+        padding-left: 1px
+    }
+
+    .wrong-common {
+        vertical-align: middle;
+        color: #E8B9BA
+    }
+
+    .ok-common {
+        vertical-align: middle;
+        color: #74C784
+    }
+
+    .file-div {
+        position: relative;
+        width: 100px;
+        height: 30px
+    }
+
+        .file-div input {
+            opacity: 0;
+            filter: alpha(opacity=0);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            cursor: pointer
+        }
+    .wrong-td td{
+        color: red
+    }
+</style>
+
+
+<div class="row clearfix" id="app">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <div class="my-btn" style="margin-right:20px">提油计划表</div>
+                <div class="my-btn seleted">油库销售明细</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="body" style="padding-top:10px">
+                <form id="file-form" method="post">
+                    <div class="file-div">
+                        <input onchange="onfilechange()" type="file"  name="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+                        <span class="import-btn">导入Excel表...</span>
+                    </div>
+                </form>
+                <table class="table table-striped" style="margin-top:10px">
+                    <tbody>
+                        <tr>
+                            <th>执行日期</th>
+                            <th>制作单位</th>
+                            <th>油库</th>
+                            <th>油品</th>
+                            <th>分公司</th>
+                            <th>客户名称</th>
+                            <th>出库量(吨)</th>
+                            <th>单价</th>
+                            <th>金额</th>
+                            <th>剩余吨数</th>
+                            <th>余额</th>
+                            <th>司机姓名</th>
+                            <th>卡号</th>
+                        </tr>
+                        <tr v-for="d in sellOrders" v-bind:class="[(!d.success&&reconcilia)?'wrong-td':'']">
+                            <td>{{d.timeCreated.substring(0,d.timeCreated.indexOf("T"))}}</td>
+                            <td>{{d.orgName}}</td>
+                            <td>{{d.station}}</td>
+                            <td>{{d.product}}</td>
+                            <td>{{d.companyName}}</td>
+                            <td>{{d.customerName}}</td>
+                            <td>{{d.count}}</td>
+                            <td>{{d.price}}</td>
+                            <td>{{d.amount}}</td>
+                            <td>{{d.remaining}}</td>
+                            <td>{{d.balance}}</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div v-if="sellOrders.length>0">
+                    <div class="re-btn" @@click="reStart">与系统数据对账</div>
+                    <div v-if="reconcilia">
+                        <span class="re-txt">对账结果</span>
+                        <div class="re-result" id="re-wrong" v-if="!success">
+                            <i class="mdui-icon material-icons wrong-common">&#xe5c9;</i>
+                            <span class="wrong-common" style="margin-left:10px">{{wrongCount}}项数据有错误</span>
+                        </div>
+                        <div class="re-result" id="re-ok" v-else>
+                            <i class="mdui-icon material-icons ok-common">&#xe86c;</i>
+                            <span class="ok-common" style="margin-left:10px">所有数据核对无错误</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function onfilechange(){
+        abp.ui.setBusy('#app');
+        var options = {
+          url: "/Reconcilia/Import",
+          success: function (d) {
+              vm.sellOrders=d.result;
+              vm.success=d.success;
+              vm.wrongCount=d.result.filter(function(item){
+                 return item.success==false;
+              }).length;
+          },
+          complete:function(){
+              abp.ui.clearBusy('#app');
+          }
+        };
+        $("#file-form").ajaxSubmit(options);
+    }
+    var vm = new Vue({
+      el: '#app',
+      data: {
+         sellOrders:[],
+         success:false,
+         reconcilia:false,
+         wrongCount:0
+      },
+      methods:{
+         reStart:function(){
+            abp.ui.setBusy('#app');
+            setTimeout(function(){
+                vm.reconcilia=true;
+                abp.ui.clearBusy('#app');
+            },2000);
+         }
+      }
+    })
+</script>

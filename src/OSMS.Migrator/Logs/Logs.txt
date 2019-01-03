@@ -1,0 +1,47 @@
+﻿DEBUG 2019-01-03 09:48:38,043 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 09:48:38,310 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2019-01-03 09:48:39,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Migrator.OSMSMigratorModule, OSMS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:39,133 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2019-01-03 09:48:40,105 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:48:41,809 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-01-03 09:48:42,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 09:48:42,703 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 09:48:42,917 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+INFO  2019-01-03 09:48:43,379 [1    ] OSMS.Migrator.Log                        - Host database: server=localhost;database=OSMSDb;user id=*****;password=*****;port=3306
+INFO  2019-01-03 09:48:43,379 [1    ] OSMS.Migrator.Log                        - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-01-03 09:48:59,571 [1    ] OSMS.Migrator.Log                        - Migration canceled.
+DEBUG 2019-01-03 09:49:04,488 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-01-03 09:49:04,490 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-01-03 09:49:27,557 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 09:49:27,741 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2019-01-03 09:49:28,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Migrator.OSMSMigratorModule, OSMS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,383 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:28,390 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2019-01-03 09:49:29,193 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 09:49:30,808 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-01-03 09:49:31,167 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 09:49:31,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 09:49:31,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+INFO  2019-01-03 09:49:32,338 [1    ] OSMS.Migrator.Log                        - Host database: server=localhost;database=OSMSDb;user id=*****;password=*****;port=3306
+INFO  2019-01-03 09:49:32,339 [1    ] OSMS.Migrator.Log                        - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-01-03 09:49:38,578 [1    ] OSMS.Migrator.Log                        - HOST database migration started...
+INFO  2019-01-03 09:49:44,312 [1    ] OSMS.Migrator.Log                        - HOST database migration completed.
+INFO  2019-01-03 09:49:44,312 [1    ] OSMS.Migrator.Log                        - --------------------------------------------------------
+INFO  2019-01-03 09:49:44,472 [1    ] OSMS.Migrator.Log                        - All databases have been migrated.
+DEBUG 2019-01-03 09:49:59,636 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-01-03 09:49:59,639 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.

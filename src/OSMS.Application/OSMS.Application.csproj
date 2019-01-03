@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>OSMS.Application</AssemblyName>
+    <PackageId>OSMS.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>OSMS</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OSMS.Core\OSMS.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SellOrders\" />
+    <Folder Include="SellOrders\Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Reconcilia\Dto\SellOrderDto.cs" />
+  </ItemGroup>
+</Project>
