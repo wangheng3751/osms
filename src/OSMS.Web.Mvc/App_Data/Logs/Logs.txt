@@ -11918,3 +11918,566 @@ INFO  2019-01-03 09:18:27,400 [21   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2019-01-03 09:18:27,628 [18   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2019-01-03 09:18:27,718 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"L9rNdCuMmguh4X7Z_xIo3Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T09:18:27.629771+08:00","Properties":{}}
 DEBUG 2019-01-03 09:18:27,719 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: L9rNdCuMmguh4X7Z_xIo3Q
+DEBUG 2019-01-03 13:50:26,668 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 13:50:26,877 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-03 13:50:26,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Web.Startup.OSMSWebMvcModule, OSMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSWebCoreModule, OSMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSApplicationModule, OSMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:26,926 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-03 13:50:27,080 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 13:50:27,081 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 13:50:27,081 [1    ] o.Configuration.LanguageManagementConfig - Converted OSMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 13:50:27,081 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 13:50:27,726 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 13:50:30,396 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-03 13:50:30,710 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 13:50:31,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 13:50:31,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+DEBUG 2019-01-03 13:50:31,674 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-03 13:50:32,282 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-03 13:50:32,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-01-03 13:50:32,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-03 13:50:32,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.CreateUserDto
+DEBUG 2019-01-03 13:50:32,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.UserDto
+DEBUG 2019-01-03 13:50:32,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-03 13:50:32,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-03 13:50:32,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.SellOrders.Dto.SellOrderDto
+DEBUG 2019-01-03 13:50:32,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-03 13:50:32,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.PermissionDto
+DEBUG 2019-01-03 13:50:32,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.RoleDto
+DEBUG 2019-01-03 13:50:32,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-03 13:50:32,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-03 13:50:32,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-01-03 13:50:32,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-01-03 13:50:32,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Reconcilia.SellOrderReconciliaModel
+INFO  2019-01-03 13:50:41,283 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 13:50:54,871 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 13:50:54,996 [8    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 13:50:55,113 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 13:50:55,136 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.8192ms.
+INFO  2019-01-03 13:50:56,001 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 13:50:58,549 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 13:50:58,824 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 13:51:01,762 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 13:51:01,821 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 13:51:01,822 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 13:51:05,253 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9388.7744ms.
+INFO  2019-01-03 13:51:05,301 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 10412.9021ms
+INFO  2019-01-03 13:51:05,372 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24113.4983ms 200 text/html; charset=utf-8
+INFO  2019-01-03 13:51:05,458 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821202322859530  
+INFO  2019-01-03 13:51:05,526 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821202322859530  
+INFO  2019-01-03 13:51:05,690 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 13:51:05,723 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 13:51:05,831 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 13:51:05,968 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 13:51:06,428 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 588.207ms.
+INFO  2019-01-03 13:51:06,447 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:51:06,464 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 764.6762ms
+INFO  2019-01-03 13:51:06,476 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 952.3457ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:51:06,527 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 551.018ms.
+INFO  2019-01-03 13:51:06,538 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 13:51:06,549 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 814.7411ms
+INFO  2019-01-03 13:51:06,560 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1106.0126ms 200 application/x-javascript
+INFO  2019-01-03 13:51:06,575 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 13:51:06,697 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.0106ms 200 application/json
+INFO  2019-01-03 13:51:06,805 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=pNQG_nV_9Mkad--kr1c_UQ  
+INFO  2019-01-03 13:51:07,583 [16   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 13:51:07,646 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"pNQG_nV_9Mkad--kr1c_UQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T13:51:07.630462+08:00","Properties":{}}
+DEBUG 2019-01-03 13:51:07,752 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: pNQG_nV_9Mkad--kr1c_UQ
+INFO  2019-01-03 13:51:44,152 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2  
+INFO  2019-01-03 13:51:44,264 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'. Physical path: '/Users/duanglink/ReactNativeProjects/OSMS/src/OSMS.Web.Mvc/wwwroot/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'
+INFO  2019-01-03 13:51:44,274 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.3067ms 200 font/woff2
+INFO  2019-01-03 13:53:54,902 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=/  
+INFO  2019-01-03 13:53:54,930 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-01-03 13:53:54,958 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /) - Validation state: Valid
+INFO  2019-01-03 13:53:55,188 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 212.9927ms.
+INFO  2019-01-03 13:53:55,223 [18   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2019-01-03 13:53:55,236 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 296.5775ms
+INFO  2019-01-03 13:53:55,252 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 350.7468ms 302 
+INFO  2019-01-03 13:53:55,260 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 13:53:55,285 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 13:53:55,297 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 13:53:55,309 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 13:53:55,319 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0934ms.
+INFO  2019-01-03 13:53:55,358 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-01-03 13:53:55,661 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 204.3815ms.
+INFO  2019-01-03 13:53:55,697 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 375.9469ms
+INFO  2019-01-03 13:53:55,743 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821202322859530  
+INFO  2019-01-03 13:53:55,804 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 518.6755ms 200 text/html; charset=utf-8
+INFO  2019-01-03 13:53:55,851 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821202322859530  
+INFO  2019-01-03 13:53:55,861 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 13:53:55,876 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 13:53:55,898 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 11.3532ms.
+INFO  2019-01-03 13:53:55,910 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 13:53:55,954 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 49.2281ms
+INFO  2019-01-03 13:53:55,963 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 307.698ms 200 application/x-javascript
+INFO  2019-01-03 13:53:55,980 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 13:53:55,992 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+DEBUG 2019-01-03 13:53:56,045 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: pNQG_nV_9Mkad--kr1c_UQ
+INFO  2019-01-03 13:53:56,076 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 73.1864ms.
+INFO  2019-01-03 13:53:56,103 [21   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:53:56,129 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 123.1636ms
+INFO  2019-01-03 13:53:56,140 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 326.0506ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:53:56,152 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 13:53:56,178 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.7976ms 200 application/json
+INFO  2019-01-03 13:53:56,198 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 169387.7175ms 101 
+INFO  2019-01-03 13:53:56,381 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=Ec1DvBwwn5PL-3VBzkkw7w  
+INFO  2019-01-03 13:53:56,571 [16   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 13:53:56,719 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Ec1DvBwwn5PL-3VBzkkw7w","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T13:53:56.572469+08:00","Properties":{}}
+DEBUG 2019-01-03 13:53:56,721 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Ec1DvBwwn5PL-3VBzkkw7w
+INFO  2019-01-03 13:54:13,718 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpLocalization/ChangeCulture?cultureName=zh-Hans&returnUrl=/  
+INFO  2019-01-03 13:54:13,740 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-01-03 13:54:13,753 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-Hans, /) - Validation state: Valid
+INFO  2019-01-03 13:54:14,214 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 452.7981ms.
+INFO  2019-01-03 13:54:14,236 [21   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2019-01-03 13:54:14,245 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 495.5074ms
+INFO  2019-01-03 13:54:14,255 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 542.416ms 302 
+INFO  2019-01-03 13:54:14,263 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 13:54:14,282 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 13:54:14,292 [21   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 13:54:14,303 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 13:54:14,311 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0806ms.
+INFO  2019-01-03 13:54:14,967 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 13:54:15,300 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 13:54:15,301 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 13:54:15,495 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 13:54:15,497 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 13:54:15,498 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 13:54:15,586 [21   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 544.5732ms.
+INFO  2019-01-03 13:54:15,597 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821202322859530  
+DEBUG 2019-01-03 13:54:15,654 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Ec1DvBwwn5PL-3VBzkkw7w
+INFO  2019-01-03 13:54:15,665 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 1322.0265ms
+INFO  2019-01-03 13:54:15,690 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821202322859530  
+INFO  2019-01-03 13:54:15,711 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1434.1647ms 200 text/html; charset=utf-8
+INFO  2019-01-03 13:54:15,723 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19318.0184ms 101 
+INFO  2019-01-03 13:54:15,741 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 13:54:15,764 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 13:54:15,776 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 13:54:15,789 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 13:54:15,801 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 27.1426ms.
+INFO  2019-01-03 13:54:15,823 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 13:54:15,835 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 81.8769ms
+INFO  2019-01-03 13:54:15,848 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.5501ms 200 application/x-javascript
+INFO  2019-01-03 13:54:15,882 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 80.0376ms.
+INFO  2019-01-03 13:54:15,894 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:54:15,906 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 118.6563ms
+INFO  2019-01-03 13:54:15,915 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 241.2955ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 13:54:15,944 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 13:54:15,965 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.4279ms 200 application/json
+INFO  2019-01-03 13:54:16,051 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=OpTGV4Tbm_fgd-uUrNaNZw  
+INFO  2019-01-03 13:54:16,273 [22   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 13:54:16,290 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"OpTGV4Tbm_fgd-uUrNaNZw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T13:54:16.274231+08:00","Properties":{}}
+DEBUG 2019-01-03 13:54:16,291 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: OpTGV4Tbm_fgd-uUrNaNZw
+DEBUG 2019-01-03 13:54:32,377 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: OpTGV4Tbm_fgd-uUrNaNZw
+INFO  2019-01-03 13:54:32,387 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16363.8514ms 101 
+DEBUG 2019-01-03 15:19:15,807 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 15:19:16,015 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-03 15:19:16,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Web.Startup.OSMSWebMvcModule, OSMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSWebCoreModule, OSMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSApplicationModule, OSMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:16,063 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-03 15:19:16,214 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:19:16,214 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:19:16,215 [1    ] o.Configuration.LanguageManagementConfig - Converted OSMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:19:16,215 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:19:16,871 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:19:19,503 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-03 15:19:19,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 15:19:20,261 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 15:19:20,463 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+DEBUG 2019-01-03 15:19:20,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-03 15:19:21,359 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-03 15:19:21,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-01-03 15:19:21,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-03 15:19:21,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.CreateUserDto
+DEBUG 2019-01-03 15:19:21,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.UserDto
+DEBUG 2019-01-03 15:19:21,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-03 15:19:21,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-03 15:19:21,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.SellOrders.Dto.SellOrderDto
+DEBUG 2019-01-03 15:19:21,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-03 15:19:21,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.PermissionDto
+DEBUG 2019-01-03 15:19:21,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.RoleDto
+DEBUG 2019-01-03 15:19:21,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-03 15:19:21,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-03 15:19:21,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-01-03 15:19:21,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-01-03 15:19:21,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Reconcilia.SellOrderReconciliaModel
+INFO  2019-01-03 15:19:30,459 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 15:19:44,424 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:19:44,550 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:19:44,670 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:19:44,692 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.8911ms.
+INFO  2019-01-03 15:19:45,525 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:19:47,826 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:19:48,103 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:19:51,017 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:19:51,072 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:19:51,073 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:19:54,292 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 8977.0375ms.
+INFO  2019-01-03 15:19:54,349 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 9910.6051ms
+INFO  2019-01-03 15:19:54,420 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23981.0267ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:19:54,518 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821255613623840  
+INFO  2019-01-03 15:19:54,545 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821255613623840  
+INFO  2019-01-03 15:19:54,667 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:19:54,700 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:19:54,803 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:19:54,921 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:19:55,369 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 554.4586ms.
+INFO  2019-01-03 15:19:55,410 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:19:55,427 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 748.834ms
+INFO  2019-01-03 15:19:55,436 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 892.466ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:19:55,550 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 618.4581ms.
+INFO  2019-01-03 15:19:55,560 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:19:55,572 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 861.6857ms
+INFO  2019-01-03 15:19:55,583 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1070.7038ms 200 application/x-javascript
+INFO  2019-01-03 15:19:55,596 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:19:55,716 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.4672ms 200 application/json
+INFO  2019-01-03 15:19:55,872 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=7sTsNlBJsuElt9tLcOT5wg  
+INFO  2019-01-03 15:19:56,642 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 15:19:56,704 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"7sTsNlBJsuElt9tLcOT5wg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:19:56.683134+08:00","Properties":{}}
+DEBUG 2019-01-03 15:19:56,817 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 7sTsNlBJsuElt9tLcOT5wg
+INFO  2019-01-03 15:19:59,904 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Reconcilia  
+INFO  2019-01-03 15:19:59,926 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Reconcilia", area = ""}. Executing action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:19:59,937 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:20:01,197 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:20:01,207 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5133ms.
+INFO  2019-01-03 15:20:01,300 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:20:01,383 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:20:01,383 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:20:01,551 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:20:01,553 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:20:01,553 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:20:01,571 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 313.5904ms.
+INFO  2019-01-03 15:20:01,602 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) in 1645.4321ms
+INFO  2019-01-03 15:20:01,627 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1710.729ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:20:01,636 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821255613623840  
+INFO  2019-01-03 15:20:01,645 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821255613623840  
+INFO  2019-01-03 15:20:01,688 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:20:01,699 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:20:01,711 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:20:01,727 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:20:01,773 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 22.5412ms.
+INFO  2019-01-03 15:20:01,788 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:20:01,814 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 88.6991ms
+INFO  2019-01-03 15:20:01,838 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.9104ms 200 application/x-javascript
+INFO  2019-01-03 15:20:01,896 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 176.2765ms.
+INFO  2019-01-03 15:20:01,907 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:20:01,920 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 219.4887ms
+INFO  2019-01-03 15:20:01,930 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 295.0214ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:20:01,963 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+DEBUG 2019-01-03 15:20:01,964 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 7sTsNlBJsuElt9tLcOT5wg
+INFO  2019-01-03 15:20:01,990 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.6026ms 200 application/json
+INFO  2019-01-03 15:20:02,015 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6146.6512ms 101 
+INFO  2019-01-03 15:20:02,081 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=I4g0JgrSGX9SvFhEEMG1kg  
+INFO  2019-01-03 15:20:02,326 [18   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 15:20:02,421 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"I4g0JgrSGX9SvFhEEMG1kg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:20:02.357447+08:00","Properties":{}}
+DEBUG 2019-01-03 15:20:02,423 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: I4g0JgrSGX9SvFhEEMG1kg
+INFO  2019-01-03 15:20:08,783 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/signalr-client/signalr.min.js.map  
+INFO  2019-01-03 15:20:08,942 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map  
+INFO  2019-01-03 15:20:08,957 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/dist/css/bootstrap-select.css.map  
+INFO  2019-01-03 15:20:09,172 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 391.6142ms 404 
+INFO  2019-01-03 15:20:09,225 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css.map'. Physical path: '/Users/duanglink/ReactNativeProjects/OSMS/src/OSMS.Web.Mvc/wwwroot/lib/bootstrap-select/dist/css/bootstrap-select.css.map'
+INFO  2019-01-03 15:20:09,237 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 290.809ms 200 text/plain
+INFO  2019-01-03 15:20:09,284 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: '/Users/duanglink/ReactNativeProjects/OSMS/src/OSMS.Web.Mvc/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map'
+INFO  2019-01-03 15:20:09,299 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 478.9677ms 200 text/plain
+INFO  2019-01-03 15:29:26,509 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Reconcilia  
+INFO  2019-01-03 15:29:26,625 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Reconcilia", area = ""}. Executing action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:29:26,633 [27   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:29:26,644 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:29:26,653 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1042ms.
+INFO  2019-01-03 15:29:26,781 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:29:26,786 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:29:26,787 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:29:26,989 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:29:26,991 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:29:26,992 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:29:27,025 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 230.7132ms.
+DEBUG 2019-01-03 15:29:27,079 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: I4g0JgrSGX9SvFhEEMG1kg
+INFO  2019-01-03 15:29:27,148 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) in 400.2718ms
+INFO  2019-01-03 15:29:27,170 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821255613623840  
+INFO  2019-01-03 15:29:27,191 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 670.8187ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:29:27,305 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:29:27,286 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821255613623840  
+INFO  2019-01-03 15:29:27,380 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:29:27,398 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:29:27,410 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 565314.1322ms 101 
+INFO  2019-01-03 15:29:27,433 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:29:27,455 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 50.5844ms.
+INFO  2019-01-03 15:29:27,477 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:29:27,513 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 172.6307ms
+INFO  2019-01-03 15:29:27,546 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 374.1505ms 200 application/x-javascript
+INFO  2019-01-03 15:29:27,573 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 128.1472ms.
+INFO  2019-01-03 15:29:27,615 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:29:27,665 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 241.9031ms
+INFO  2019-01-03 15:29:27,714 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 450.2003ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:29:27,787 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:29:27,822 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2572ms 200 application/json
+INFO  2019-01-03 15:29:27,949 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=J6Zr5qLl2eCx6374mBNqZg  
+INFO  2019-01-03 15:29:28,108 [30   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-01-03 15:29:28,185 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/signalr-client/signalr.min.js.map  
+INFO  2019-01-03 15:29:28,221 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.1626ms 404 
+DEBUG 2019-01-03 15:29:28,276 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"J6Zr5qLl2eCx6374mBNqZg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:29:28.196684+08:00","Properties":{}}
+DEBUG 2019-01-03 15:29:28,277 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: J6Zr5qLl2eCx6374mBNqZg
+DEBUG 2019-01-03 15:29:50,003 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 15:29:50,206 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-03 15:29:50,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Web.Startup.OSMSWebMvcModule, OSMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSWebCoreModule, OSMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSApplicationModule, OSMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:50,251 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-03 15:29:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:29:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:29:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted OSMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:29:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:29:51,061 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:29:53,720 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-03 15:29:54,059 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 15:29:54,559 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 15:29:54,768 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+DEBUG 2019-01-03 15:29:55,088 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-03 15:29:55,705 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-03 15:29:55,803 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-01-03 15:29:55,803 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-03 15:29:55,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.CreateUserDto
+DEBUG 2019-01-03 15:29:55,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.UserDto
+DEBUG 2019-01-03 15:29:55,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-03 15:29:55,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-03 15:29:55,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.SellOrders.Dto.SellOrderDto
+DEBUG 2019-01-03 15:29:55,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-03 15:29:55,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.PermissionDto
+DEBUG 2019-01-03 15:29:55,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.RoleDto
+DEBUG 2019-01-03 15:29:55,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-03 15:29:55,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-03 15:29:55,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-01-03 15:29:55,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-01-03 15:29:55,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Reconcilia.SellOrderReconciliaModel
+INFO  2019-01-03 15:30:04,850 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 15:30:18,214 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:30:18,344 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:30:18,467 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:30:18,489 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.8768ms.
+INFO  2019-01-03 15:30:19,132 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:30:21,455 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:21,736 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:25,111 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:25,172 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:25,173 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:30:28,205 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9216.2603ms.
+INFO  2019-01-03 15:30:28,257 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 10024.6234ms
+INFO  2019-01-03 15:30:28,337 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23495.833ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:30:28,538 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821261957085570  
+INFO  2019-01-03 15:30:28,587 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821261957085570  
+INFO  2019-01-03 15:30:28,683 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:30:28,712 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:30:28,823 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:30:28,956 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:30:29,380 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 543.4218ms.
+INFO  2019-01-03 15:30:29,411 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:30:29,427 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 734.2777ms
+INFO  2019-01-03 15:30:29,438 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 908.8315ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:30:29,513 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 549.235ms.
+INFO  2019-01-03 15:30:29,524 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:30:29,536 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 812.9149ms
+INFO  2019-01-03 15:30:29,548 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1057.6952ms 200 application/x-javascript
+INFO  2019-01-03 15:30:29,561 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:30:29,682 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.4331ms 200 application/json
+INFO  2019-01-03 15:30:29,850 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=4QmnVYtwGujPIT-i7wxpcA  
+INFO  2019-01-03 15:30:30,520 [19   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 15:30:30,577 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"4QmnVYtwGujPIT-i7wxpcA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:30:30.559055+08:00","Properties":{}}
+DEBUG 2019-01-03 15:30:30,680 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 4QmnVYtwGujPIT-i7wxpcA
+INFO  2019-01-03 15:30:32,046 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Reconcilia  
+INFO  2019-01-03 15:30:32,070 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Reconcilia", area = ""}. Executing action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:30:32,083 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:30:33,395 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:30:33,404 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8495ms.
+INFO  2019-01-03 15:30:33,776 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:30:33,836 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:33,837 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:33,879 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:33,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:30:33,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:30:33,902 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 176.1879ms.
+INFO  2019-01-03 15:30:33,940 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) in 1831.821ms
+INFO  2019-01-03 15:30:33,959 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1905.8307ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:30:33,976 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821261957085570  
+INFO  2019-01-03 15:30:34,023 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:30:34,053 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821261957085570  
+INFO  2019-01-03 15:30:34,072 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:30:34,106 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 21.3742ms.
+INFO  2019-01-03 15:30:34,119 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:30:34,145 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:30:34,160 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 122.5234ms
+INFO  2019-01-03 15:30:34,202 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:30:34,211 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.1653ms 200 application/x-javascript
+INFO  2019-01-03 15:30:34,292 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 78.8788ms.
+INFO  2019-01-03 15:30:34,304 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+DEBUG 2019-01-03 15:30:34,316 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 4QmnVYtwGujPIT-i7wxpcA
+INFO  2019-01-03 15:30:34,317 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 186.0052ms
+INFO  2019-01-03 15:30:34,334 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 289.3944ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:30:34,344 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:30:34,377 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.8154ms 200 application/json
+INFO  2019-01-03 15:30:34,442 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=qDAQ7c8WXDwPlDK_F7AFBQ  
+INFO  2019-01-03 15:30:34,753 [17   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-01-03 15:30:34,769 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4920.2765ms 101 
+DEBUG 2019-01-03 15:30:34,778 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"qDAQ7c8WXDwPlDK_F7AFBQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:30:34.754651+08:00","Properties":{}}
+DEBUG 2019-01-03 15:30:34,779 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: qDAQ7c8WXDwPlDK_F7AFBQ
+DEBUG 2019-01-03 15:37:01,275 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-03 15:37:01,492 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-03 15:37:01,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.Web.Startup.OSMSWebMvcModule, OSMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSWebCoreModule, OSMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSApplicationModule, OSMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.OSMSCoreModule, OSMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OSMS.EntityFrameworkCore.OSMSEntityFrameworkModule, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:01,537 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-03 15:37:01,704 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:37:01,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:37:01,704 [1    ] o.Configuration.LanguageManagementConfig - Converted OSMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:37:01,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-03 15:37:02,379 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OSMS.EntityFrameworkCore.OSMSDbContext, OSMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-03 15:37:05,054 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-03 15:37:05,380 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-03 15:37:05,848 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-03 15:37:06,052 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OSMS
+DEBUG 2019-01-03 15:37:06,363 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-03 15:37:06,980 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-03 15:37:07,071 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-01-03 15:37:07,071 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-03 15:37:07,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.CreateUserDto
+DEBUG 2019-01-03 15:37:07,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Users.Dto.UserDto
+DEBUG 2019-01-03 15:37:07,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-03 15:37:07,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-03 15:37:07,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.SellOrders.Dto.SellOrderDto
+DEBUG 2019-01-03 15:37:07,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-03 15:37:07,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.PermissionDto
+DEBUG 2019-01-03 15:37:07,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Roles.Dto.RoleDto
+DEBUG 2019-01-03 15:37:07,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-03 15:37:07,094 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-03 15:37:07,094 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-01-03 15:37:07,094 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-01-03 15:37:07,094 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OSMS.Web.Models.Reconcilia.SellOrderReconciliaModel
+INFO  2019-01-03 15:37:16,447 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2019-01-03 15:37:29,729 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:37:29,863 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:37:29,992 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:37:30,013 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.9123ms.
+INFO  2019-01-03 15:37:30,688 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:37:33,017 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:33,299 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:36,629 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:36,689 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:36,690 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:37:39,724 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9178.2822ms.
+INFO  2019-01-03 15:37:39,774 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.HomeController.Index (OSMS.Web.Mvc) in 10027.4199ms
+INFO  2019-01-03 15:37:39,851 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23439.3366ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:37:39,933 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821266269845550  
+INFO  2019-01-03 15:37:39,960 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821266269845550  
+INFO  2019-01-03 15:37:40,093 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:37:40,126 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:37:40,227 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:37:40,356 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:37:40,797 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 543.3216ms.
+INFO  2019-01-03 15:37:40,849 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:37:40,883 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 762.9158ms
+INFO  2019-01-03 15:37:40,908 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 947.1739ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:37:40,976 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 611.7687ms.
+INFO  2019-01-03 15:37:40,987 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:37:40,999 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 861.0936ms
+INFO  2019-01-03 15:37:41,008 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1106.0631ms 200 application/x-javascript
+INFO  2019-01-03 15:37:41,023 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:37:41,141 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.4173ms 200 application/json
+INFO  2019-01-03 15:37:41,330 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=Nooj3hKjshAl2uF7Ia7eiA  
+INFO  2019-01-03 15:37:41,986 [16   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 15:37:42,045 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Nooj3hKjshAl2uF7Ia7eiA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:37:42.023262+08:00","Properties":{}}
+DEBUG 2019-01-03 15:37:42,150 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Nooj3hKjshAl2uF7Ia7eiA
+INFO  2019-01-03 15:37:44,064 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Reconcilia  
+INFO  2019-01-03 15:37:44,085 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Reconcilia", area = ""}. Executing action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc)
+INFO  2019-01-03 15:37:44,097 [16   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:37:45,378 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) - Validation state: Valid
+INFO  2019-01-03 15:37:45,386 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4796ms.
+INFO  2019-01-03 15:37:45,819 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-01-03 15:37:45,882 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'PleaseWait' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:45,882 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'StartTyping' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:46,104 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Version' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:46,106 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Skins' in localization source 'OSMS'!
+WARN  2019-01-03 15:37:46,107 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Settings' in localization source 'OSMS'!
+INFO  2019-01-03 15:37:46,144 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 358.3226ms.
+INFO  2019-01-03 15:37:46,170 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.ReconciliaController.Index (OSMS.Web.Mvc) in 2058.7271ms
+INFO  2019-01-03 15:37:46,204 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2117.89ms 200 text/html; charset=utf-8
+INFO  2019-01-03 15:37:46,224 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=636821266269845550  
+INFO  2019-01-03 15:37:46,273 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Reconcilia/reconcilia.js?v=a9sC-Rq6tfz_DfDjJY8mMrR_tZV_Klc-unIlglMH6Ec  
+INFO  2019-01-03 15:37:46,329 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-01-03 15:37:46,378 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-01-03 15:37:46,439 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 48.678ms.
+INFO  2019-01-03 15:37:46,449 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-01-03 15:37:46,465 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 119.795ms
+INFO  2019-01-03 15:37:46,495 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 255.688ms 200 application/x-javascript
+INFO  2019-01-03 15:37:46,504 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=636821266269845550  
+INFO  2019-01-03 15:37:46,530 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-01-03 15:37:46,542 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-01-03 15:37:46,666 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Reconcilia/reconcilia.js'. Physical path: '/Users/duanglink/ReactNativeProjects/OSMS/src/OSMS.Web.Mvc/wwwroot/view-resources/Views/Reconcilia/reconcilia.js'
+INFO  2019-01-03 15:37:46,690 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 405.6099ms 200 application/javascript
+INFO  2019-01-03 15:37:46,742 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 189.3937ms.
+INFO  2019-01-03 15:37:46,753 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+DEBUG 2019-01-03 15:37:46,762 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Nooj3hKjshAl2uF7Ia7eiA
+INFO  2019-01-03 15:37:46,772 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 223.966ms
+INFO  2019-01-03 15:37:46,784 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.094ms 200 application/x-javascript; charset=utf-8
+INFO  2019-01-03 15:37:46,798 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-01-03 15:37:46,881 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.8806ms 200 application/json
+INFO  2019-01-03 15:37:46,927 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=JGSQrp9kfBjyz0ZrVvkn1Q  
+INFO  2019-01-03 15:37:46,986 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5655.0941ms 101 
+INFO  2019-01-03 15:37:47,280 [16   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-03 15:37:47,331 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"JGSQrp9kfBjyz0ZrVvkn1Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-01-03T15:37:47.323971+08:00","Properties":{}}
+DEBUG 2019-01-03 15:37:47,332 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: JGSQrp9kfBjyz0ZrVvkn1Q
+INFO  2019-01-03 15:38:00,999 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/Reconcilia/Import multipart/form-data; boundary=----WebKitFormBoundarykdgjkdAViBDrpGrI 15715
+INFO  2019-01-03 15:38:01,037 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Import", controller = "Reconcilia", area = ""}. Executing action OSMS.Web.Controllers.ReconciliaController.Import (OSMS.Web.Mvc)
+INFO  2019-01-03 15:38:01,046 [17   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-01-03 15:38:01,385 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OSMS.Web.Controllers.ReconciliaController.Import (OSMS.Web.Mvc) with arguments (Microsoft.AspNetCore.Http.Internal.FormFile) - Validation state: Valid
+INFO  2019-01-03 15:38:02,728 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OSMS.Web.Controllers.ReconciliaController.Import (OSMS.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1335.4231ms.
+INFO  2019-01-03 15:38:03,288 [16   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-03 15:38:03,321 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OSMS.Web.Controllers.ReconciliaController.Import (OSMS.Web.Mvc) in 2275.2523ms
+INFO  2019-01-03 15:38:03,331 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2333.3998ms 200 application/json; charset=utf-8

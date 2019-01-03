@@ -54,7 +54,7 @@
     <environment names="Staging,Production">
         <link href="~/view-resources/Views/_Bundles/shared-layout.min.css" rel="stylesheet" asp-append-version="true" />
     </environment>
-    <script src="~/lib/vue.js/vue.min.js" asp-append-version="true"></script>
+
     <!-- View specific styles -->
     @RenderSection("styles", required: false)
 
@@ -194,6 +194,7 @@
         <script src="~/js/main.js" asp-append-version="true"></script>
         <script src="~/view-resources/Views/Shared/_Layout.js" asp-append-version="true"></script>
         <script src="~/lib/jquery.form.js/jquery-form.js" asp-append-version="true"></script>
+        <script src="~/lib/vue.js/vue.min.js" asp-append-version="true"></script>
         @if (CultureInfo.CurrentUICulture.Name != "en")
         {
             <script src="~/lib/jquery-validation/src/localization/messages_@Html.Raw(CultureInfo.CurrentUICulture.Name.Replace("-", "_") + ".js")" asp-append-version="true"></script>

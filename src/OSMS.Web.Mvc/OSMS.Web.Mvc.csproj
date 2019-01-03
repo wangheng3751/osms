@@ -63,6 +63,7 @@
     <Folder Include="Models\Reconcilia\" />
     <Folder Include="wwwroot\lib\jquery.form.js\" />
     <Folder Include="wwwroot\lib\vue.js\" />
+    <Folder Include="wwwroot\view-resources\Views\Reconcilia\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\jquery.form.js\jquery-form.js" />

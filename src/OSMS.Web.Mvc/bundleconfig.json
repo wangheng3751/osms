@@ -82,7 +82,9 @@
       "wwwroot/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js",
       "wwwroot/js/admin.js",
       "wwwroot/js/main.js",
-      "wwwroot/view-resources/Views/Shared/_Layout.js"
+      "wwwroot/view-resources/Views/Shared/_Layout.js",
+      "wwwroot/lib/jquery.form.js/jquery-form.js",
+      "wwwroot/lib/vue.js/vue.min.js"
     ]
   },
   {
@@ -147,6 +149,12 @@
     "outputFileName": "wwwroot/view-resources/Views/Shared/Components/TenantChange/Default.min.js",
     "inputFiles": [
       "wwwroot/view-resources/Views/Shared/Components/TenantChange/Default.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/view-resources/Views/Reconcilia/reconcilia.min.js",
+    "inputFiles": [
+      "wwwroot/view-resources/Views/Reconcilia/reconcilia.js"
     ]
   }
 ]
