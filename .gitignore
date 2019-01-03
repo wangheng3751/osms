@@ -250,3 +250,6 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+src/OSMS.Migrator/appsettings.json
+src/OSMS.Web.Mvc/appsettings.json
+src/OSMS.Web.Mvc/App_Data/Logs/Logs.txt
